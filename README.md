@@ -1,6 +1,6 @@
 # TractorTweaks
 
-This is tractortweaks! It's a modpack that aims to bring back the child-like wonder that early versions of the game had brought to us before, whilst still working with modern versions of the game. It also adds a few other odds and ends, in an attempt to bring back some pre-release aspects of the game, such as my E3 2014 HUD mod (which would be it's first release!). If you want to tweak anything yourself, go right ahead! You'll need the Mod Builder and a copy of the game, just place all these files in `Scripts/Mod/TractorTweaks/` and follow the instructions laid out on the Mod Builder's github.
+This is tractortweaks! It's a modpack that aims to bring back the child-like wonder that early versions of the game had brought to us before, whilst still working with modern versions of the game. It also adds a few other odds and ends, in an attempt to bring back some pre-release aspects of the game, such as my E3 2014 HUD mod (which would be its first release!). If you want to tweak anything yourself, go right ahead! You'll need the Mod Builder and a copy of the game, just place all these files in `Scripts/Mod/TractorTweaks/` and follow the instructions laid out on the Mod Builder's github.
 
 Todo: Screenshots. Happy exploring!
 
