@@ -92,7 +92,8 @@ public class depreciated_HudWeapon : cmk.NMS.Script.ModClass
 		
 		OverheatBar.ElementData.Layout.Align.Vertical	= TkNGuiAlignment.VerticalEnum.Top;
 		OverheatBar.ElementData.Layout.Align.Horizontal	= TkNGuiAlignment.HorizontalEnum.Left;
-		OverheatBar.ElementData.Layout.PositionX		= -2;
+		OverheatBar.ElementData.Layout.PositionX		= -1;
+		OverheatBar.ElementData.Layout.PositionY		= 0;
 		OverheatBar.ElementData.Layout.HeightPercentage	= true;
 		OverheatBar.ElementData.Layout.Height			= 100;
 		OverheatBar.Style.Default.Colour	= new(0f, 0f, 0f, 0.1f);
