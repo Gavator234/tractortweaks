@@ -10,7 +10,7 @@ public class tractorbeam_ShipTweaks : cmk.NMS.Script.ModClass
 		GameplayGlobals();
 		ScanDataTable();
 		CameraGlobals();
-		HUDGlobals();
+		UIGlobals();
 		
 		NoFakeRocksMiniJump();
 		NoAmbientNebulaEncounters();
@@ -194,9 +194,9 @@ public class tractorbeam_ShipTweaks : cmk.NMS.Script.ModClass
 		*/
 	}
 
-	protected void HUDGlobals() {
-		var mbin = ExtractMbin<GcHUDGlobals>(
-			"GCHUDGLOBALS.GLOBAL.MBIN"
+	protected void UIGlobals() {
+		var mbin = ExtractMbin<GcUIGlobals>(
+			"GCUIGLOBALS.GLOBAL.MBIN"
 		);
 
 		mbin.PlanetScanDelayTime = 4;	//2
