@@ -4,6 +4,8 @@ public class tractorbeam_E3Hud : cmk.NMS.Script.ModClass
 {
 	protected override void Execute()
 	{
+		//Believe me, I've tried making my own mbins instead of editing the old ones. The game does NOT like them.
+
 		UIGlobals();
 		Compass();
 		Hud();
@@ -19,18 +21,16 @@ public class tractorbeam_E3Hud : cmk.NMS.Script.ModClass
 			"GCUIGLOBALS.GLOBAL.MBIN"
 		);
 		
+		//Fixes issue where the "Scanner damaged, repair required" line wouldn't play on a new save.
 		var ScannerStartup = mbin.IntroTiming.HUDStartup.Find(INFO => INFO.RequiresTechBroken == "SCAN1");	
 		ScannerStartup.RequiresTechBroken = "";
 		
-		mbin.NGuiUseSeparateLayersForModelAndReflection = false;
+		//Turn off parallax, inventory UI update is next in line and this is just laying down the groundwork.
 		mbin.NGuiMin2DParallax = new(0f, 0f);
 		mbin.NGuiMax2DParallax = new(0f, 0f);
 		mbin.NGuiModelParallax = new(0f, 0f);
 		mbin.NGuiShipInteractParallax = new(0f, 0f);
 		mbin.InteractionWorldParallax = new(0f, 0f);
-		
-		mbin.OSDMessageQueueMax	= 0;	//5
-		mbin.OSDMessageQueueMin	= 0;	//1
 		
 	}
 	

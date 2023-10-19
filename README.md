@@ -8,6 +8,10 @@ Todo: Screenshots. Happy exploring!
 
 Obviously, a few of these mods aren't mine or are derived from other people's works. I can assure you all of the scripts that start with `tractorbeam` are mine entirely, however the others... Well, some of them needed extensive editing to work with the mods I have created so unfortunately I am forced to pack them in with everything else in the repo. If you are the creator of any of these mods, hit me up @tractorbeam on discord! I'm sure we can work something out.
 
-## Development Notice
+## Release Notice
 
 *THIS IS IN* ***MIGHTY*** *EARLY DEVELOPMENT.* Whenever I feel a pak is clean enough of rough edges to release, I'll stick it under releases, but for now you'll have to build this yourself to obtain it. I just want to keep anybody who doesn't understand the development process from complaining about things that are... well... under development.
+
+### To Developers
+
+You aren't stuck with the Mod Builder's blinding IDE! I highly suggest going to that repo and downloading everything in the Common folder so whatever IDE you use (VSCode for example) will pick up on all the extra stuff there.
