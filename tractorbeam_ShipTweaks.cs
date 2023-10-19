@@ -10,6 +10,7 @@ public class tractorbeam_ShipTweaks : cmk.NMS.Script.ModClass
 		GameplayGlobals();
 		ScanDataTable();
 		CameraGlobals();
+		HUDGlobals();
 		
 		PhotonOverheatNoiseReturns();
 		NoFakeRocksMiniJump();
@@ -192,6 +193,14 @@ public class tractorbeam_ShipTweaks : cmk.NMS.Script.ModClass
 		mbin.WarpSettings.RollRange				= 0;
 		mbin.WarpSettings.YawnRange				= 0;
 		*/
+	}
+
+	protected void HUDGlobals() {
+		var mbin = ExtractMbin<GcHUDGlobals>(
+			"GCHUDGLOBALS.GLOBAL.MBIN"
+		);
+
+		mbin.PlanetScanDelayTime = 4;	//2
 	}
 	
 	protected void PhotonOverheatNoiseReturns() {
