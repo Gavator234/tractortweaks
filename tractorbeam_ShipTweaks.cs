@@ -12,7 +12,6 @@ public class tractorbeam_ShipTweaks : cmk.NMS.Script.ModClass
 		CameraGlobals();
 		HUDGlobals();
 		
-		PhotonOverheatNoiseReturns();
 		NoFakeRocksMiniJump();
 		NoAmbientNebulaEncounters();
 		SpaceHeavyAir();
@@ -201,15 +200,6 @@ public class tractorbeam_ShipTweaks : cmk.NMS.Script.ModClass
 		);
 
 		mbin.PlanetScanDelayTime = 4;	//2
-	}
-	
-	protected void PhotonOverheatNoiseReturns() {
-		var mbin = ExtractMbin<GcProjectileDataTable>(
-			"METADATA/PROJECTILES/PROJECTILETABLE.MBIN"
-		);
-		
-		var ShipGun = mbin.Table.Find(INFO => INFO.Id == "SHIPGUN") as GcProjectileData;
-		ShipGun.OverheatAudioEvent.AkEvent = GcAudioWwiseEvents.AkEventEnum.WPN_SHIP_READY;
 	}
 	
 	protected void NoFakeRocksMiniJump() {
