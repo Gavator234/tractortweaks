@@ -32,6 +32,8 @@ public class tractorbeam_E3Hud : cmk.NMS.Script.ModClass
 		mbin.NGuiShipInteractParallax = new(0f, 0f);
 		mbin.InteractionWorldParallax = new(0f, 0f);
 		
+		//Fix all the elements getting offset when the player uses the binoculars by turning off the animation in its entirety
+		mbin.ZoomHUDElementTime = 0;	//0.2
 	}
 	
 	protected void Compass() {
