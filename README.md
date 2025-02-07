@@ -12,6 +12,3 @@ Obviously, a few of these mods aren't mine or are derived from other people's wo
 
 *THIS IS IN* ***MIGHTY*** *EARLY DEVELOPMENT.* Whenever I feel a pak is clean enough of rough edges to release, I'll stick it under releases, but for now you'll have to build this yourself to obtain it. I just want to keep anybody who doesn't understand the development process from complaining about things that are... well... under development.
 
-### To Developers
-
-You aren't stuck with the Mod Builder's blinding IDE! I highly suggest going to that repo and downloading everything in the Common folder so whatever IDE you use (VSCode for example) will pick up on all the extra stuff there.
